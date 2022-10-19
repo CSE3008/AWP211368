@@ -1,0 +1,72 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/************************************* home styles ***************************************/
+
+.div-title {
+    background-color: rgb(255, 225, 231);
+    font-family: 'Open Sans';
+}
+.div-footer{
+    background-color:  rgb(255, 225, 231);
+    text-decoration-color: rgb(255, 182, 199);
+    font-family: 'Open Sans';
+
+}
+
+.container {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.logo {
+    border-radius: 18px;
+    margin: 2%;
+}
+
+.link {
+    margin: 0% 3%;
+}
+
+.carousel {
+    width: 60vw;
+}
+
+.grid-columns {
+    display: grid;
+    gap: 2rem;
+    grid-template-rows: 20rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(258px, 17rem), 1fr));
+}
+
+
+
+/* RESPONSIVE*/
+
+@media only screen and (max-width: 600px) {
+    .div-title {
+        background-color: rgb(255, 225, 231);
+    }
+}
